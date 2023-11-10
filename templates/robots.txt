@@ -1,5 +1,3 @@
-{% load static %}
-
 <!DOCTYPE html>
 <html lang="en" class="vk">
 <head>
@@ -9,7 +7,7 @@
 <title>
       Crypto Tailwind - Crypto and ICO Web Template for Tailwind CSS
     </title>
-<link rel="icon" href="{% static 'img/favicon.ico'%}"><link href="{% static 'css/style.css'%}" rel="stylesheet"></head>
+<link rel="icon" href="favicon.ico"><link href="style.css" rel="stylesheet"></head>
 <body x-data="
       {
         scrolledFromTop: false
@@ -26,8 +24,8 @@
 <div class="e ha qb be ee">
 <div class="kc zc ng">
 <a href="index.html" :class="scrolledFromTop && 'og gp' " class="ob jc ah ip">
-<img src="{% static 'img/logo/logo.svg'%}" alt="logo" class="jc xk" />
-<img src="{% static 'img/logo-white.svg'%}" alt="logo" class="sb jc wk" />
+<img src="src/images/logo/logo.svg" alt="logo" class="jc xk" />
+<img src="src/images/logo/logo-white.svg" alt="logo" class="sb jc wk" />
 </a>
 </div>
 <div class="qb jc be ce ng">
@@ -250,8 +248,8 @@ Buy Tokens 47% Off
             rgba(62, 125, 255, 0) 100%
           );
         "></div>
-<img src="{% static 'img/hero-shape-1.svg'%}" alt class="d l f ea" />
-<img src="{% static 'img/hero-shape-2.svg'%}" alt class="d m f ea" />
+<img src="src/images/shapes/hero-shape-1.svg" alt class="d l f ea" />
+<img src="src/images/shapes/hero-shape-2.svg" alt class="d m f ea" />
 </section>
 
 
@@ -264,32 +262,32 @@ Join the 20,000+ companies using the our platform
 <div class="ha qb _d be de">
 <div class="ng">
 <a href="https://uideck.com" target="_blank" rel="nofollow noopenner" class="ra qb hd de hj nj nk ok gm">
-<img src="{% static 'img/uideck-white.svg'%}" alt="uideck" class="la sb ac fi wk" />
-<img src="{% static 'img/uideck.svg'%}" alt="uideck" class="la ac fi xk" />
+<img src="src/images/brands/uideck-white.svg" alt="uideck" class="la sb ac fi wk" />
+<img src="src/images/brands/uideck.svg" alt="uideck" class="la ac fi xk" />
 </a>
 </div>
 <div class="ng">
 <a href="https://tailgrids.com" target="_blank" rel="nofollow noopenner" class="ra qb hd de hj nj nk ok gm">
-<img src="{% static 'img/TailGrids-white.svg'%}" alt="tailgrids" class="la sb ac fi wk" />
-<img src="{% static 'img/tailgrids.svg'%}" alt="tailgrids" class="la ac fi xk" />
+<img src="src/images/brands/TailGrids-white.svg" alt="tailgrids" class="la sb ac fi wk" />
+<img src="src/images/brands/tailgrids.svg" alt="tailgrids" class="la ac fi xk" />
 </a>
 </div>
 <div class="ng">
 <a href="https://lineicons.com" target="_blank" rel="nofollow noopenner" class="ra qb hd de hj nj nk ok gm">
-<img src="{% static 'img/LineIcons-white.svg'%}" alt="lineicons" class="la sb ac fi wk" />
-<img src="{% static 'img/lineicons.svg'%}" alt="lineicons" class="la ac fi xk" />
+<img src="src/images/brands/LineIcons-white.svg" alt="lineicons" class="la sb ac fi wk" />
+<img src="src/images/brands/lineicons.svg" alt="lineicons" class="la ac fi xk" />
 </a>
 </div>
 <div class="ng">
 <a href="https://ayroui.com" target="_blank" rel="nofollow noopenner" class="ra qb hd de hj nj nk ok gm">
-<img src="{% static 'img/AyroUI-white.svg'%}" alt="ayroui" class="la sb ac fi wk" />
-<img src="{% static 'img/ayroui.svg'%}" alt="ayroui" class="la ac fi xk" />
+<img src="src/images/brands/AyroUI-white.svg" alt="ayroui" class="la sb ac fi wk" />
+<img src="src/images/brands/ayroui.svg" alt="ayroui" class="la ac fi xk" />
 </a>
 </div>
 <div class="ng">
 <a href="https://plainadmin.com" target="_blank" rel="nofollow noopenner" class="ra qb hd de hj nj nk ok gm">
-<img src="{% static 'img/PlainAdmin-white.svg'%}" alt="plainadmin" class="la sb ac fi wk" />
-<img src="{% static 'img/plainadmin.svg'%}" alt="plainadmin" class="la ac fi xk" />
+<img src="src/images/brands/PlainAdmin-white.svg" alt="plainadmin" class="la sb ac fi wk" />
+<img src="src/images/brands/plainadmin.svg" alt="plainadmin" class="la ac fi xk" />
 </a>
 </div>
 </div>
@@ -483,7 +481,7 @@ facilisis in.
 </div>
 </div>
 <div class="d m v ea">
-<img src="{% static 'img/token-sale-shape.svg'%}" alt="shape" />
+<img src="src/images/shapes/token-sale-shape.svg" alt="shape" />
 </div>
 </section>
 
@@ -655,7 +653,7 @@ polygon
 </div>
 </div>
 <div class="d l n ea">
-<img src="{% static 'img/timeline.svg'%}" alt="shape" />
+<img src="src/images/shapes/timeline.svg" alt="shape" />
 </div>
 </section>
 
@@ -678,8 +676,8 @@ congue arcu, In et dignissim quam condimentum vel.
 <div class="jc ng qm/2 yo/4">
 <div class="sk wow fadeInUp ra me ye _e nf jg fi qj ek gl" data-wow-delay="0s">
 <div class="ta ke ne">
-<img src="{% static 'img/image-01.jpg'%}" alt="team" class="_q jc" />
-</div>'
+<img src="src/images/team/image-01.jpg" alt="team" class="_q jc" />
+</div>
 <div>
 <h3 class="ya gi oi yi vl">
 Matheus Ferrero
@@ -715,7 +713,7 @@ Marketing Expert
 <div class="jc ng qm/2 yo/4">
 <div class="sk wow fadeInUp ra me ye _e nf jg fi qj ek gl" data-wow-delay="0s">
 <div class="ta ke ne">
-<img src="{% static 'img/image-02.jpg'%}" alt="team" class="_q jc" />
+<img src="src/images/team/image-02.jpg" alt="team" class="_q jc" />
 </div>
 <div>
 <h3 class="ya gi oi yi vl">
@@ -752,7 +750,7 @@ Blockchain Developer
 <div class="jc ng qm/2 yo/4">
 <div class="sk wow fadeInUp ra me ye _e nf jg fi qj ek gl" data-wow-delay="0s">
 <div class="ta ke ne">
-<img src="{% static 'img/image-03.jpg'%}" alt="team" class="_q jc" />
+<img src="src/images/team/image-03.jpg" alt="team" class="_q jc" />
 </div>
 <div>
 <h3 class="ya gi oi yi vl">
@@ -789,7 +787,7 @@ Creative Designer
 <div class="jc ng qm/2 yo/4">
 <div class="sk wow fadeInUp ra me ye _e nf jg fi qj ek gl" data-wow-delay="0s">
 <div class="ta ke ne">
-<img src="{% static 'img/image-04.jpg'%}" alt="team" class="_q jc" />
+<img src="src/images/team/image-04.jpg" alt="team" class="_q jc" />
 </div>
 <div>
 <h3 class="ya gi oi yi vl">
@@ -846,11 +844,11 @@ congue arcu, In et dignissim quam condimentum vel.
 <div class="jc ng vn/2">
 <div class="wow fadeInUp e ca ra ke qe kf sg hh ol um xn mq" data-wow-delay="0s">
 <div class="d m f da">
-<img src="{% static 'img/testimonial-shape.svg'%}" alt="shape" />
+<img src="src/images/shapes/testimonial-shape.svg" alt="shape" />
 </div>
 <div class="xa qb be">
 <div class="sa cc jc kd ke ne">
-<image src="{% static 'img/image-01.jpg'%}" alt="author" />
+<image src="src/images/testimonials/image-01.jpg" alt="author" />
 </div>
 <div class="jc">
 <h3 class="jb gi oi aj vl">
@@ -873,11 +871,11 @@ my friends and familys.”
 <div class="jc ng vn/2">
 <div class="wow fadeInUp e ca ra ke qe kf sg hh ol um xn mq" data-wow-delay="0s">
 <div class="d m f da">
-<img src="{% static 'img/testimonial-shape.svg'%}" alt="shape" />
+<img src="src/images/shapes/testimonial-shape.svg" alt="shape" />
 </div>
 <div class="xa qb be">
 <div class="sa cc jc kd ke ne">
-<image src="{% static 'img/image-02.jpg'%}" alt="author" />
+<image src="src/images/testimonials/image-02.jpg" alt="author" />
 </div>
 <div class="jc">
 <h3 class="jb gi oi aj vl">
@@ -900,11 +898,11 @@ my friends and familys.”
 <div class="jc ng vn/2">
 <div class="wow fadeInUp e ca ra ke qe kf sg hh ol um xn mq" data-wow-delay="0s">
 <div class="d m f da">
-<img src="{% static 'img/testimonial-shape.svg'%}" alt="shape" />
+<img src="src/images/shapes/testimonial-shape.svg" alt="shape" />
 </div>
 <div class="xa qb be">
 <div class="sa cc jc kd ke ne">
-<image src="{% static 'img/image-03.jpg'%}" alt="author" />
+<image src="src/images/testimonials/image-03.jpg" alt="author" />
 </div>
 <div class="jc">
 <h3 class="jb gi oi aj vl">
@@ -927,11 +925,11 @@ my friends and familys.”
 <div class="jc ng vn/2">
 <div class="wow fadeInUp e ca ra ke qe kf sg hh ol um xn mq" data-wow-delay="0s">
 <div class="d m f da">
-<img src="{% static 'img/testimonial-shape.svg'%}" alt="shape" />
+<img src="src/images/shapes/testimonial-shape.svg" alt="shape" />
 </div>
 <div class="xa qb be">
 <div class="sa cc jc kd ke ne">
-<image src="{% static 'img/image-04.jpg'%}" alt="author" />
+<image src="src/images/testimonials/image-04.jpg" alt="author" />
 </div>
 <div class="jc">
 <h3 class="jb gi oi aj vl">
@@ -998,8 +996,8 @@ Play Store
 </div>
 <div class="jc ng yo/2">
 <div class="wow fadeInUp e -ud-z-10 fi" data-wow-delay="0s">
-<img src="{% static 'img/app-image.png'%}" alt="app image" class="la sb wk fi" />
-<img src="{% static 'img/app-image-2.png'%}" alt="app image" class="la xk" />
+<img src="src/images/download/app-image.png" alt="app image" class="la sb wk fi" />
+<img src="src/images/download/app-image-2.png" alt="app image" class="la xk" />
 <span class="d m n uc fc oe ea" style="
                   background: linear-gradient(
                     180deg,
@@ -1156,10 +1154,10 @@ Lorem Ipsum, you need to be sure there isn't anything.
 </div>
 </div>
 <div class="d l z ea">
-<img src="{% static 'img/faq-shape-1.svg'%}" alt="shape" />
+<img src="src/images/shapes/faq-shape-1.svg" alt="shape" />
 </div>
 <div class="d m _ ea">
-<img src="{% static 'img/faq-shape-2.svg'%}" alt="shape" />
+<img src="src/images/shapes/faq-shape-2.svg" alt="shape" />
 </div>
 </section>
 
@@ -1182,7 +1180,7 @@ congue arcu, In et dignissim quam condimentum vel.
 <div class="jc ng vn/2 yo/3">
 <div class="wow fadeInUp ra ke me nf ml" data-wow-delay="0s">
 <a href="blog-details.html" class="ob">
-<img src="{% static 'img/image-01.jpg'%}" alt="blog-image" class="jc" />
+<img src="src/images/blogs/image-01.jpg" alt="blog-image" class="jc" />
 </a>
 <div class="hg kp lq">
 <div class="ya qb be">
@@ -1218,7 +1216,7 @@ sed congue arcu, In et dignissim quam condime vel.
 <div class="jc ng vn/2 yo/3">
 <div class="wow fadeInUp ra ke me nf ml" data-wow-delay="0s">
 <a href="blog-details.html" class="ob">
-<img src="{% static 'img/image-02.jpg'%}" alt="blog-image" class="jc" />
+<img src="src/images/blogs/image-02.jpg" alt="blog-image" class="jc" />
 </a>
 <div class="hg kp lq">
 <div class="ya qb be">
@@ -1254,7 +1252,7 @@ sed congue arcu, In et dignissim quam condime vel.
 <div class="jc ng vn/2 yo/3">
 <div class="wow fadeInUp ra ke me nf ml" data-wow-delay="0s">
 <a href="blog-details.html" class="ob">
-<img src="{% static 'img/image-03.jpg'%}" alt="blog-image" class="jc" />
+<img src="src/images/blogs/image-03.jpg" alt="blog-image" class="jc" />
 </a>
 <div class="hg kp lq">
 <div class="ya qb be">
@@ -1321,10 +1319,10 @@ Our Location
 Email Address
 </h3>
 <p class="ii qi wi xi ul">
-<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f79e999198b78e98828593989a969e99d994989a">[email&#160;protected]</a>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fa93949c95ba83958f889e95979b9394d4999597">[email&#160;protected]</a>
 </p>
 <p class="ii qi wi xi ul">
-<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="accfc3c2d8cdcfd8ecd5c3d9dec8c3c1cdc5c282cfc3c1">[email&#160;protected]</a>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="03606c6d77626077437a6c7671676c6e626a6d2d606c6e">[email&#160;protected]</a>
 </p>
 </div>
 </div>
@@ -1425,7 +1423,7 @@ Submit
 </div>
 </div>
 <div class="d f m ea">
-<img src="{% static 'img/newsletter-shape.svg'%}" alt="shape" />
+<img src="src/images/shapes/newsletter-shape.svg" alt="shape" />
 </div>
 </div>
 </div>
@@ -1438,8 +1436,8 @@ Submit
 <div class="jc ng vn/2 wo/12 gq/12">
 <div class="wow fadeInUp bb dd eq" data-wow-delay="0s">
 <a href="index.html" class="ta pb">
-<img src="{% static 'img/logo-white.svg'%}" alt="logo" class="sb wk" />
-<img src="{% static 'img/logo.svg'%}" alt="logo" class="xk" />
+<img src="src/images/logo/logo-white.svg" alt="logo" class="sb wk" />
+<img src="src/images/logo/logo.svg" alt="logo" class="xk" />
 </a>
 <p class="ra ii qi xi ul">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
@@ -1527,7 +1525,7 @@ News & Post
 <div class="he">
 <div class="qb">
 <div class="sa xb jc ed pe">
-<img src="{% static 'img/blog-01.jpg'%}" alt="post" class="yb jc pe dg eg" />
+<img src="src/images/footer/blog-01.jpg" alt="post" class="yb jc pe dg eg" />
 </div>
 <div>
 <a href="javascript:void(0)" class="ii qi xi kk ul fm">
@@ -1547,7 +1545,7 @@ Dec 18, 2025
 </div>
 <div class="qb">
 <div class="sa xb jc ed pe">
-<img src="{% static 'img/blog-02.jpg'%}" alt="post" class="yb jc pe dg eg" />
+<img src="src/images/footer/blog-02.jpg" alt="post" class="yb jc pe dg eg" />
 </div>
 <div>
 <a href="javascript:void(0)" class="ii qi xi kk ul fm">
@@ -1579,10 +1577,10 @@ UIdeck
 </div>
 </div>
 <div class="d f l ea">
-<img src="{% static 'img/footer-shape-2.svg'%}" alt="shape" />
+<img src="src/images/shapes/footer-shape-2.svg" alt="shape" />
 </div>
 <div class="d n m ea">
-<img src="{% static 'img/footer-shape-1.svg'%}" alt="shape" />
+<img src="src/images/shapes/footer-shape-1.svg" alt="shape" />
 </div>
 </footer>
 
@@ -1592,7 +1590,7 @@ UIdeck
 </a>
 
 
-<script data-cfasync="false" src="{% static 'js/email-decode.min.js'%}"></script><script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
       // ==== for menu scroll
       const pageLink = document.querySelectorAll(".scroll-menu");
 
@@ -1635,6 +1633,6 @@ UIdeck
 
       window.document.addEventListener("scroll", onScroll);
     </script>
-<script defer src="{% static 'js/bundle.js'%}"></script><script>(function(){var js = "window['__CF$cv$params']={r:'823c7b253da84d31',t:'MTY5OTYwMDI4Mi40OTMwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"823c7b253da84d31","version":"2023.10.0","r":1,"token":"9a6015d415bb4773a0bff22543062d3b","b":1}' crossorigin="anonymous"></script>
+<script defer src="bundle.js"></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"823c7b1dabb64d31","version":"2023.10.0","r":1,"token":"9a6015d415bb4773a0bff22543062d3b","b":1}' crossorigin="anonymous"></script>
 </body>
 </html>
